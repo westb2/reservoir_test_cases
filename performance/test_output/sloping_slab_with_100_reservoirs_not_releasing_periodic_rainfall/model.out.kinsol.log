@@ -1,0 +1,825 @@
+
+KINSOL starting step for time 0.050000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          795.8619450653655  nfe=     1 
+KINSol nni=    1 fnorm=          187.3950438879725 nfe=     2
+KINSol nni=    2 fnorm=          49.80715166016741 nfe=     3
+KINSol nni=    3 fnorm=          18.27529074058451 nfe=     4
+KINSol nni=    4 fnorm=          7.869152677190176 nfe=     5
+KINSol nni=    5 fnorm=          3.444254415162574 nfe=     6
+KINSol nni=    6 fnorm=          1.517121309539064 nfe=     7
+KINSol nni=    7 fnorm=         0.6700009301951566 nfe=     8
+KINSol nni=    8 fnorm=         0.2962283288027305 nfe=     9
+KINSol nni=    9 fnorm=         0.1310368563584192 nfe=    10
+KINSol nni=   10 fnorm=        0.05797691854533901 nfe=    11
+KINSol nni=   11 fnorm=        0.02565415710034403 nfe=    12
+KINSol nni=   12 fnorm=        0.01135213543769556 nfe=    13
+KINSol nni=   13 fnorm=       0.005023471946648446 nfe=    14
+KINSol nni=   14 fnorm=       0.002222963292194039 nfe=    15
+KINSol nni=   15 fnorm=      0.0009836948248193994 nfe=    16
+KINSol nni=   16 fnorm=       0.000435298649321918 nfe=    17
+KINSol nni=   17 fnorm=      0.0001926250025906733 nfe=    18
+KINSol nni=   18 fnorm=      8.523857817078089e-05 nfe=    19
+KINSol nni=   19 fnorm=      3.771879722641085e-05 nfe=    20
+KINSol nni=   20 fnorm=      1.669081406121497e-05 nfe=    21
+KINSol nni=   21 fnorm=      7.385760258331597e-06 nfe=    22
+KINSol nni=   22 fnorm=      3.268216906582179e-06 nfe=    23
+KINSol nni=   23 fnorm=      1.446187169416474e-06 nfe=    24
+KINSol nni=   24 fnorm=      6.399352202810516e-07 nfe=    25
+KINSol nni=   25 fnorm=      2.831373444558565e-07 nfe=    26
+KINSol nni=   26 fnorm=      5.995232138907002e-08 nfe=    27
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              26                26
+Lin. Its.:                520               520
+Func. Evals.:              27                27
+PC Evals.:                 26                26
+PC Solves:                546               546
+Lin. Conv. Fails:          26                26
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.100000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          508.9951029996245  nfe=     1 
+KINSol nni=    1 fnorm=          508.9949825111992 nfe=    30
+KINSol nni=    2 fnorm=          74.68459920668221 nfe=    31
+KINSol nni=    3 fnorm=          19.49360587947789 nfe=    32
+KINSol nni=    4 fnorm=            7.9305364926012 nfe=    33
+KINSol nni=    5 fnorm=          3.370379362761753 nfe=    34
+KINSol nni=    6 fnorm=          1.457154392659256 nfe=    35
+KINSol nni=    7 fnorm=         0.6354373266003063 nfe=    36
+KINSol nni=    8 fnorm=         0.2782568776534796 nfe=    37
+KINSol nni=    9 fnorm=         0.1219395224469324 nfe=    38
+KINSol nni=   10 fnorm=        0.05368208190899862 nfe=    39
+KINSol nni=   11 fnorm=        0.02357073865330028 nfe=    40
+KINSol nni=   12 fnorm=        0.01036549197898538 nfe=    41
+KINSol nni=   13 fnorm=       0.004566830087372292 nfe=    42
+KINSol nni=   14 fnorm=       0.002011570244414279 nfe=    43
+KINSol nni=   15 fnorm=      0.0008847979208074614 nfe=    44
+KINSol nni=   16 fnorm=      0.0003903335866967654 nfe=    45
+KINSol nni=   17 fnorm=      0.0001717473577565801 nfe=    46
+KINSol nni=   18 fnorm=      7.555150742873538e-05 nfe=    47
+KINSol nni=   19 fnorm=      3.311606964131993e-05 nfe=    48
+KINSol nni=   20 fnorm=      1.451540296616506e-05 nfe=    49
+KINSol nni=   21 fnorm=      6.294325992476084e-06 nfe=    50
+KINSol nni=   22 fnorm=      2.741569201562578e-06 nfe=    51
+KINSol nni=   23 fnorm=      1.181771086903317e-06 nfe=    52
+KINSol nni=   24 fnorm=      5.014479291493461e-07 nfe=    53
+KINSol nni=   25 fnorm=      1.918607186621617e-07 nfe=    54
+KINSol nni=   26 fnorm=      2.774318933713126e-08 nfe=    55
+KINSol nni=   27 fnorm=      1.561781285025014e-09 nfe=    56
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              27                53
+Lin. Its.:                540              1060
+Func. Evals.:              56                83
+PC Evals.:                 27                53
+PC Solves:                567              1113
+Lin. Conv. Fails:          27                53
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.150000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          468.8666399425608  nfe=     1 
+KINSol nni=    1 fnorm=          468.8664941397162 nfe=    29
+KINSol nni=    2 fnorm=          58.47580582646506 nfe=    30
+KINSol nni=    3 fnorm=          13.19493657603098 nfe=    31
+KINSol nni=    4 fnorm=          5.256307792375712 nfe=    32
+KINSol nni=    5 fnorm=          2.217682760515694 nfe=    33
+KINSol nni=    6 fnorm=         0.9552351248955985 nfe=    34
+KINSol nni=    7 fnorm=         0.4154048023189868 nfe=    35
+KINSol nni=    8 fnorm=         0.1815494345500152 nfe=    36
+KINSol nni=    9 fnorm=        0.07946388307300807 nfe=    37
+KINSol nni=   10 fnorm=        0.03493265795384384 nfe=    38
+KINSol nni=   11 fnorm=        0.01532171221147896 nfe=    39
+KINSol nni=   12 fnorm=       0.006722283412330402 nfe=    40
+KINSol nni=   13 fnorm=       0.002956657355387402 nfe=    41
+KINSol nni=   14 fnorm=       0.001302029328324633 nfe=    42
+KINSol nni=   15 fnorm=      0.0005720937152597472 nfe=    43
+KINSol nni=   16 fnorm=       0.000251760961434944 nfe=    44
+KINSol nni=   17 fnorm=       0.000110768743960914 nfe=    45
+KINSol nni=   18 fnorm=      4.844416699285944e-05 nfe=    46
+KINSol nni=   19 fnorm=      2.115937713862151e-05 nfe=    47
+KINSol nni=   20 fnorm=       9.18830093409585e-06 nfe=    48
+KINSol nni=   21 fnorm=      3.890060477198277e-06 nfe=    49
+KINSol nni=   22 fnorm=      1.615343619498308e-06 nfe=    50
+KINSol nni=   23 fnorm=      6.272256724910491e-07 nfe=    51
+KINSol nni=   24 fnorm=      2.108967104236409e-07 nfe=    52
+KINSol nni=   25 fnorm=      4.967056633305311e-08 nfe=    53
+KINSol nni=   26 fnorm=      5.860638672768368e-09 nfe=    54
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              26                79
+Lin. Its.:                520              1580
+Func. Evals.:              54               137
+PC Evals.:                 26                79
+PC Solves:                546              1659
+Lin. Conv. Fails:          26                79
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.200000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=           470.612410039109  nfe=     1 
+KINSol nni=    1 fnorm=          470.6122105468762 nfe=    28
+KINSol nni=    2 fnorm=          59.51921808212666 nfe=    29
+KINSol nni=    3 fnorm=           12.5101553159809 nfe=    30
+KINSol nni=    4 fnorm=          4.859059041110561 nfe=    31
+KINSol nni=    5 fnorm=          2.032724473080909 nfe=    32
+KINSol nni=    6 fnorm=         0.8706544826928359 nfe=    33
+KINSol nni=    7 fnorm=         0.3772294123447297 nfe=    34
+KINSol nni=    8 fnorm=         0.1642323174936362 nfe=    35
+KINSol nni=    9 fnorm=        0.07168379625555896 nfe=    36
+KINSol nni=   10 fnorm=         0.0314274436150065 nfe=    37
+KINSol nni=   11 fnorm=        0.01374370297188576 nfe=    38
+KINSol nni=   12 fnorm=       0.005994195091735115 nfe=    39
+KINSol nni=   13 fnorm=       0.002622752837832103 nfe=    40
+KINSol nni=   14 fnorm=       0.001151250020450088 nfe=    41
+KINSol nni=   15 fnorm=      0.0005028087454865347 nfe=    42
+KINSol nni=   16 fnorm=      0.0002197122369477318 nfe=    43
+KINSol nni=   17 fnorm=      9.605555241505259e-05 nfe=    44
+KINSol nni=   18 fnorm=      4.138131261907923e-05 nfe=    45
+KINSol nni=   19 fnorm=      1.761066307198859e-05 nfe=    46
+KINSol nni=   20 fnorm=      7.324078128275046e-06 nfe=    47
+KINSol nni=   21 fnorm=      2.857501078556234e-06 nfe=    48
+KINSol nni=   22 fnorm=       9.86773100320559e-07 nfe=    49
+KINSol nni=   23 fnorm=      2.905017446065053e-07 nfe=    50
+KINSol nni=   24 fnorm=      6.891823835700432e-08 nfe=    51
+KINSol nni=   25 fnorm=      1.522884213319104e-08 nfe=    52
+KINSol nni=   26 fnorm=      3.642391969818479e-09 nfe=    53
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              26               105
+Lin. Its.:                520              2100
+Func. Evals.:              53               190
+PC Evals.:                 26               105
+PC Solves:                546              2205
+Lin. Conv. Fails:          26               105
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.250000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          455.5613753579674  nfe=     1 
+KINSol nni=    1 fnorm=          455.5611853814036 nfe=    30
+KINSol nni=    2 fnorm=          53.96698301025506 nfe=    31
+KINSol nni=    3 fnorm=          10.48270422154731 nfe=    32
+KINSol nni=    4 fnorm=          4.072523935353703 nfe=    33
+KINSol nni=    5 fnorm=          1.705238747643224 nfe=    34
+KINSol nni=    6 fnorm=         0.7291992294584657 nfe=    35
+KINSol nni=    7 fnorm=         0.3146481195257717 nfe=    36
+KINSol nni=    8 fnorm=         0.1363305241664011 nfe=    37
+KINSol nni=    9 fnorm=        0.05915610246464163 nfe=    38
+KINSol nni=   10 fnorm=        0.02579491086305702 nfe=    39
+KINSol nni=   11 fnorm=        0.01119998906874404 nfe=    40
+KINSol nni=   12 fnorm=       0.004844970512086664 nfe=    41
+KINSol nni=   13 fnorm=        0.00210492839532653 nfe=    42
+KINSol nni=   14 fnorm=      0.0009185735430772724 nfe=    43
+KINSol nni=   15 fnorm=      0.0003988179348569924 nfe=    44
+KINSol nni=   16 fnorm=      0.0001735978053236646 nfe=    45
+KINSol nni=   17 fnorm=      7.588060826566184e-05 nfe=    46
+KINSol nni=   18 fnorm=      3.246774107969868e-05 nfe=    47
+KINSol nni=   19 fnorm=      1.353997693355833e-05 nfe=    48
+KINSol nni=   20 fnorm=      5.369555940313578e-06 nfe=    49
+KINSol nni=   21 fnorm=       1.88322338319582e-06 nfe=    50
+KINSol nni=   22 fnorm=       5.33954677513888e-07 nfe=    51
+KINSol nni=   23 fnorm=      1.162080824124856e-07 nfe=    52
+KINSol nni=   24 fnorm=      2.528973599925622e-08 nfe=    53
+KINSol nni=   25 fnorm=      7.042441412379595e-09 nfe=    54
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              25               130
+Lin. Its.:                500              2600
+Func. Evals.:              54               244
+PC Evals.:                 25               130
+PC Solves:                525              2730
+Lin. Conv. Fails:          25               130
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.300000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          459.3199056746566  nfe=     1 
+KINSol nni=    1 fnorm=          459.3198383784625 nfe=    29
+KINSol nni=    2 fnorm=          56.90804545512241 nfe=    30
+KINSol nni=    3 fnorm=          11.14882430322903 nfe=    31
+KINSol nni=    4 fnorm=          4.286101494498373 nfe=    32
+KINSol nni=    5 fnorm=          1.788502205096944 nfe=    33
+KINSol nni=    6 fnorm=         0.7640853704516956 nfe=    34
+KINSol nni=    7 fnorm=         0.3303578217407095 nfe=    35
+KINSol nni=    8 fnorm=         0.1434253224780218 nfe=    36
+KINSol nni=    9 fnorm=         0.0624442514687283 nfe=    37
+KINSol nni=   10 fnorm=         0.0273302039348059 nfe=    38
+KINSol nni=   11 fnorm=        0.01191416394199334 nfe=    39
+KINSol nni=   12 fnorm=       0.005155639622362214 nfe=    40
+KINSol nni=   13 fnorm=       0.002236050405869837 nfe=    41
+KINSol nni=   14 fnorm=      0.0009737517100142363 nfe=    42
+KINSol nni=   15 fnorm=       0.000417823349239593 nfe=    43
+KINSol nni=   16 fnorm=      0.0001776455299075362 nfe=    44
+KINSol nni=   17 fnorm=      7.478790501862712e-05 nfe=    45
+KINSol nni=   18 fnorm=      2.999647422056075e-05 nfe=    46
+KINSol nni=   19 fnorm=       1.12708776375717e-05 nfe=    47
+KINSol nni=   20 fnorm=         3.870455751022e-06 nfe=    48
+KINSol nni=   21 fnorm=      1.115079380755858e-06 nfe=    49
+KINSol nni=   22 fnorm=      2.466956943437299e-07 nfe=    50
+KINSol nni=   23 fnorm=       4.29879796066327e-08 nfe=    51
+KINSol nni=   24 fnorm=      1.158948018320024e-08 nfe=    52
+KINSol nni=   25 fnorm=      2.720419771817513e-09 nfe=    53
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              25               155
+Lin. Its.:                500              3100
+Func. Evals.:              53               297
+PC Evals.:                 25               155
+PC Solves:                525              3255
+Lin. Conv. Fails:          25               155
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.350000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          444.6465135686349  nfe=     1 
+KINSol nni=    1 fnorm=          444.6464972492165 nfe=    30
+KINSol nni=    2 fnorm=          51.54719688530351 nfe=    31
+KINSol nni=    3 fnorm=          9.129386632931615 nfe=    32
+KINSol nni=    4 fnorm=          3.520319729318131 nfe=    33
+KINSol nni=    5 fnorm=          1.468931759184058 nfe=    34
+KINSol nni=    6 fnorm=         0.6242662540200599 nfe=    35
+KINSol nni=    7 fnorm=         0.2671590610285237 nfe=    36
+KINSol nni=    8 fnorm=         0.1146023468331889 nfe=    37
+KINSol nni=    9 fnorm=        0.04918795725208078 nfe=    38
+KINSol nni=   10 fnorm=        0.02126409001698523 nfe=    39
+KINSol nni=   11 fnorm=       0.009139791635866335 nfe=    40
+KINSol nni=   12 fnorm=       0.003910464963595318 nfe=    41
+KINSol nni=   13 fnorm=       0.001685560247870676 nfe=    42
+KINSol nni=   14 fnorm=      0.0007338122270150128 nfe=    43
+KINSol nni=   15 fnorm=      0.0003139955961588048 nfe=    44
+KINSol nni=   16 fnorm=      0.0001324014286811277 nfe=    45
+KINSol nni=   17 fnorm=      5.470567034080886e-05 nfe=    46
+KINSol nni=   18 fnorm=      2.093557766588754e-05 nfe=    47
+KINSol nni=   19 fnorm=      7.219364873726276e-06 nfe=    48
+KINSol nni=   20 fnorm=      2.184721431267697e-06 nfe=    49
+KINSol nni=   21 fnorm=      5.183051269481586e-07 nfe=    50
+KINSol nni=   22 fnorm=      9.219466494206844e-08 nfe=    51
+KINSol nni=   23 fnorm=      1.840958825575208e-08 nfe=    52
+KINSol nni=   24 fnorm=      5.520992607886269e-09 nfe=    53
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              24               179
+Lin. Its.:                480              3580
+Func. Evals.:              53               350
+PC Evals.:                 24               179
+PC Solves:                504              3759
+Lin. Conv. Fails:          24               179
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.400000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=           448.062276809278  nfe=     1 
+KINSol nni=    1 fnorm=           448.062218816738 nfe=    29
+KINSol nni=    2 fnorm=          55.10173396067104 nfe=    30
+KINSol nni=    3 fnorm=          10.45067470144587 nfe=    31
+KINSol nni=    4 fnorm=          4.009128175233984 nfe=    32
+KINSol nni=    5 fnorm=          1.674302230857422 nfe=    33
+KINSol nni=    6 fnorm=         0.7150264046873681 nfe=    34
+KINSol nni=    7 fnorm=          0.308744330795018 nfe=    35
+KINSol nni=    8 fnorm=         0.1335886190707251 nfe=    36
+KINSol nni=    9 fnorm=        0.05787972414157131 nfe=    37
+KINSol nni=   10 fnorm=         0.0251977704263936 nfe=    38
+KINSol nni=   11 fnorm=        0.01089005651846156 nfe=    39
+KINSol nni=   12 fnorm=       0.004634370858545275 nfe=    40
+KINSol nni=   13 fnorm=       0.001960987354958932 nfe=    41
+KINSol nni=   14 fnorm=      0.0008268187019873171 nfe=    42
+KINSol nni=   15 fnorm=       0.000335447069797867 nfe=    43
+KINSol nni=   16 fnorm=      0.0001305250691655855 nfe=    44
+KINSol nni=   17 fnorm=      4.843353578589867e-05 nfe=    45
+KINSol nni=   18 fnorm=      1.639154120582574e-05 nfe=    46
+KINSol nni=   19 fnorm=      4.835100473194008e-06 nfe=    47
+KINSol nni=   20 fnorm=      1.219864952856233e-06 nfe=    48
+KINSol nni=   21 fnorm=      2.266944625070848e-07 nfe=    49
+KINSol nni=   22 fnorm=      3.578174441218478e-08 nfe=    50
+KINSol nni=   23 fnorm=      1.012816767595312e-08 nfe=    51
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              23               202
+Lin. Its.:                460              4040
+Func. Evals.:              51               401
+PC Evals.:                 23               202
+PC Solves:                483              4242
+Lin. Conv. Fails:          23               202
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.450000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          432.8538747027323  nfe=     1 
+KINSol nni=    1 fnorm=          432.8537913552353 nfe=    27
+KINSol nni=    2 fnorm=          49.50293412034313 nfe=    28
+KINSol nni=    3 fnorm=          8.112677553158887 nfe=    29
+KINSol nni=    4 fnorm=          3.115452495780573 nfe=    30
+KINSol nni=    5 fnorm=          1.293719013708148 nfe=    31
+KINSol nni=    6 fnorm=         0.5456225566723483 nfe=    32
+KINSol nni=    7 fnorm=         0.2313878111979517 nfe=    33
+KINSol nni=    8 fnorm=        0.09830330050844363 nfe=    34
+KINSol nni=    9 fnorm=        0.04183492867102442 nfe=    35
+KINSol nni=   10 fnorm=        0.01804445857564791 nfe=    36
+KINSol nni=   11 fnorm=       0.007737625737934849 nfe=    37
+KINSol nni=   12 fnorm=       0.003285099624416483 nfe=    38
+KINSol nni=   13 fnorm=       0.001389941952308118 nfe=    39
+KINSol nni=   14 fnorm=      0.0005851606068166098 nfe=    40
+KINSol nni=   15 fnorm=      0.0002325707493218161 nfe=    41
+KINSol nni=   16 fnorm=      8.676037718978337e-05 nfe=    42
+KINSol nni=   17 fnorm=      3.021800585930319e-05 nfe=    43
+KINSol nni=   18 fnorm=      9.348219010345012e-06 nfe=    44
+KINSol nni=   19 fnorm=      2.411012537001564e-06 nfe=    45
+KINSol nni=   20 fnorm=      5.157321046619394e-07 nfe=    46
+KINSol nni=   21 fnorm=      7.992639656778267e-08 nfe=    47
+KINSol nni=   22 fnorm=      1.597291813976501e-08 nfe=    48
+KINSol nni=   23 fnorm=      5.201165545634367e-09 nfe=    49
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              23               225
+Lin. Its.:                460              4500
+Func. Evals.:              49               450
+PC Evals.:                 23               225
+PC Solves:                483              4725
+Lin. Conv. Fails:          23               225
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.500000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=           434.856909489149  nfe=     1 
+KINSol nni=    1 fnorm=          434.8568290251861 nfe=    29
+KINSol nni=    2 fnorm=          53.48210567019284 nfe=    30
+KINSol nni=    3 fnorm=          9.981568817638504 nfe=    31
+KINSol nni=    4 fnorm=           3.82675726796551 nfe=    32
+KINSol nni=    5 fnorm=          1.598965104539078 nfe=    33
+KINSol nni=    6 fnorm=         0.6819062414249776 nfe=    34
+KINSol nni=    7 fnorm=         0.2934712415740882 nfe=    35
+KINSol nni=    8 fnorm=         0.1260103903839208 nfe=    36
+KINSol nni=    9 fnorm=        0.05392715861091953 nfe=    37
+KINSol nni=   10 fnorm=        0.02308211210680695 nfe=    38
+KINSol nni=   11 fnorm=       0.009718876086108053 nfe=    39
+KINSol nni=   12 fnorm=       0.003962757675203139 nfe=    40
+KINSol nni=   13 fnorm=       0.001574326604041315 nfe=    41
+KINSol nni=   14 fnorm=      0.0006116980715899327 nfe=    42
+KINSol nni=   15 fnorm=      0.0002225541685009429 nfe=    43
+KINSol nni=   16 fnorm=      7.473449222807047e-05 nfe=    44
+KINSol nni=   17 fnorm=      2.275385686355551e-05 nfe=    45
+KINSol nni=   18 fnorm=      6.137865060827035e-06 nfe=    46
+KINSol nni=   19 fnorm=      1.350376468186535e-06 nfe=    47
+KINSol nni=   20 fnorm=      2.451456166983327e-07 nfe=    48
+KINSol nni=   21 fnorm=      3.781892850024544e-08 nfe=    49
+KINSol nni=   22 fnorm=      9.717706163603397e-09 nfe=    50
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              22               247
+Lin. Its.:                440              4940
+Func. Evals.:              50               500
+PC Evals.:                 22               247
+PC Solves:                462              5187
+Lin. Conv. Fails:          22               247
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.550000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=           417.807085612933  nfe=     1 
+KINSol nni=    1 fnorm=          417.8070054064943 nfe=    31
+KINSol nni=    2 fnorm=          47.45367089918786 nfe=    32
+KINSol nni=    3 fnorm=          7.230196274881723 nfe=    33
+KINSol nni=    4 fnorm=          2.763915059123933 nfe=    34
+KINSol nni=    5 fnorm=          1.140537879733359 nfe=    35
+KINSol nni=    6 fnorm=         0.4780366600800626 nfe=    36
+KINSol nni=    7 fnorm=          0.201973066673335 nfe=    37
+KINSol nni=    8 fnorm=        0.08561899587493198 nfe=    38
+KINSol nni=    9 fnorm=        0.03636040240557728 nfe=    39
+KINSol nni=   10 fnorm=        0.01562700571082218 nfe=    40
+KINSol nni=   11 fnorm=       0.006575874609083848 nfe=    41
+KINSol nni=   12 fnorm=       0.002661955082092628 nfe=    42
+KINSol nni=   13 fnorm=       0.001039428877219998 nfe=    43
+KINSol nni=   14 fnorm=      0.0003937998829884938 nfe=    44
+KINSol nni=   15 fnorm=      0.0001366785103639397 nfe=    45
+KINSol nni=   16 fnorm=      4.284707190764851e-05 nfe=    46
+KINSol nni=   17 fnorm=      1.188883435568917e-05 nfe=    47
+KINSol nni=   18 fnorm=      2.856576430982878e-06 nfe=    48
+KINSol nni=   19 fnorm=      5.389575355609996e-07 nfe=    49
+KINSol nni=   20 fnorm=      9.047962940686422e-08 nfe=    50
+KINSol nni=   21 fnorm=        1.6498811383235e-08 nfe=    51
+KINSol nni=   22 fnorm=      5.134666776990075e-09 nfe=    52
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              22               269
+Lin. Its.:                440              5380
+Func. Evals.:              52               552
+PC Evals.:                 22               269
+PC Solves:                462              5649
+Lin. Conv. Fails:          22               269
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.600000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          417.1343484185581  nfe=     1 
+KINSol nni=    1 fnorm=          417.1342664205913 nfe=    31
+KINSol nni=    2 fnorm=          51.70158640238075 nfe=    32
+KINSol nni=    3 fnorm=          9.578581692869488 nfe=    33
+KINSol nni=    4 fnorm=          3.659444224803112 nfe=    34
+KINSol nni=    5 fnorm=           1.52308407310722 nfe=    35
+KINSol nni=    6 fnorm=         0.6445111882865273 nfe=    36
+KINSol nni=    7 fnorm=         0.2740422549694483 nfe=    37
+KINSol nni=    8 fnorm=           0.11520048074272 nfe=    38
+KINSol nni=    9 fnorm=        0.04777329183484454 nfe=    39
+KINSol nni=   10 fnorm=        0.01959489030032314 nfe=    40
+KINSol nni=   11 fnorm=       0.007799301864361144 nfe=    41
+KINSol nni=   12 fnorm=       0.002947956023171199 nfe=    42
+KINSol nni=   13 fnorm=       0.001060597978029953 nfe=    43
+KINSol nni=   14 fnorm=      0.0003655103175295697 nfe=    44
+KINSol nni=   15 fnorm=      0.0001159125203492532 nfe=    45
+KINSol nni=   16 fnorm=      3.297401357817378e-05 nfe=    46
+KINSol nni=   17 fnorm=       8.01539050401709e-06 nfe=    47
+KINSol nni=   18 fnorm=      1.653021905947587e-06 nfe=    48
+KINSol nni=   19 fnorm=       2.79561517646639e-07 nfe=    49
+KINSol nni=   20 fnorm=      4.683700347226769e-08 nfe=    50
+KINSol nni=   21 fnorm=      1.004769605885901e-08 nfe=    51
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              21               290
+Lin. Its.:                420              5800
+Func. Evals.:              51               603
+PC Evals.:                 21               290
+PC Solves:                441              6090
+Lin. Conv. Fails:          21               290
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.650000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          397.2826458640077  nfe=     1 
+KINSol nni=    1 fnorm=          397.2826059857215 nfe=    30
+KINSol nni=    2 fnorm=          45.12862013932305 nfe=    31
+KINSol nni=    3 fnorm=          6.452359708323506 nfe=    32
+KINSol nni=    4 fnorm=          2.460215333636328 nfe=    33
+KINSol nni=    5 fnorm=          1.013442086513751 nfe=    34
+KINSol nni=    6 fnorm=          0.424583038111385 nfe=    35
+KINSol nni=    7 fnorm=          0.179288297770805 nfe=    36
+KINSol nni=    8 fnorm=        0.07518961695558632 nfe=    37
+KINSol nni=    9 fnorm=        0.03107888030556789 nfe=    38
+KINSol nni=   10 fnorm=        0.01276201052337264 nfe=    39
+KINSol nni=   11 fnorm=       0.005016897935862448 nfe=    40
+KINSol nni=   12 fnorm=       0.001847458903756435 nfe=    41
+KINSol nni=   13 fnorm=      0.0006396297162551853 nfe=    42
+KINSol nni=   14 fnorm=      0.0002108123887507111 nfe=    43
+KINSol nni=   15 fnorm=      6.279167354041755e-05 nfe=    44
+KINSol nni=   16 fnorm=      1.646345901256412e-05 nfe=    45
+KINSol nni=   17 fnorm=      3.582763103217707e-06 nfe=    46
+KINSol nni=   18 fnorm=       6.56573874567313e-07 nfe=    47
+KINSol nni=   19 fnorm=        1.0904079643098e-07 nfe=    48
+KINSol nni=   20 fnorm=      1.992221576098056e-08 nfe=    49
+KINSol nni=   21 fnorm=      5.137341543728716e-09 nfe=    50
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              21               311
+Lin. Its.:                420              6220
+Func. Evals.:              50               653
+PC Evals.:                 21               311
+PC Solves:                441              6531
+Lin. Conv. Fails:          21               311
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.700000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          393.4243196913563  nfe=     1 
+KINSol nni=    1 fnorm=          393.4241550777941 nfe=    29
+KINSol nni=    2 fnorm=          49.47615357053332 nfe=    30
+KINSol nni=    3 fnorm=          9.140622592933362 nfe=    31
+KINSol nni=    4 fnorm=          3.454474571433376 nfe=    32
+KINSol nni=    5 fnorm=           1.41715504421349 nfe=    33
+KINSol nni=    6 fnorm=         0.5866376798456352 nfe=    34
+KINSol nni=    7 fnorm=         0.2421423566410442 nfe=    35
+KINSol nni=    8 fnorm=        0.09752664212654236 nfe=    36
+KINSol nni=    9 fnorm=        0.03823986694082648 nfe=    37
+KINSol nni=   10 fnorm=        0.01463210357343334 nfe=    38
+KINSol nni=   11 fnorm=       0.005373900183402809 nfe=    39
+KINSol nni=   12 fnorm=       0.001849800740509516 nfe=    40
+KINSol nni=   13 fnorm=      0.0005945901056532771 nfe=    41
+KINSol nni=   14 fnorm=      0.0001791400412011545 nfe=    42
+KINSol nni=   15 fnorm=      4.895846468192352e-05 nfe=    43
+KINSol nni=   16 fnorm=      1.179072914244765e-05 nfe=    44
+KINSol nni=   17 fnorm=      2.289709223744217e-06 nfe=    45
+KINSol nni=   18 fnorm=      3.587499800644943e-07 nfe=    46
+KINSol nni=   19 fnorm=      6.080895547696091e-08 nfe=    47
+KINSol nni=   20 fnorm=      1.143536530251398e-08 nfe=    48
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              20               331
+Lin. Its.:                400              6620
+Func. Evals.:              48               701
+PC Evals.:                 20               331
+PC Solves:                420              6951
+Lin. Conv. Fails:          20               331
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.750000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          370.8080410887754  nfe=     1 
+KINSol nni=    1 fnorm=          370.8079753540561 nfe=    31
+KINSol nni=    2 fnorm=          42.39640467644475 nfe=    32
+KINSol nni=    3 fnorm=          5.810013781059797 nfe=    33
+KINSol nni=    4 fnorm=          2.211105312773696 nfe=    34
+KINSol nni=    5 fnorm=          0.907746293417646 nfe=    35
+KINSol nni=    6 fnorm=         0.3757483594867931 nfe=    36
+KINSol nni=    7 fnorm=         0.1548095270679135 nfe=    37
+KINSol nni=    8 fnorm=         0.0619639075174747 nfe=    38
+KINSol nni=    9 fnorm=        0.02395847351569211 nfe=    39
+KINSol nni=   10 fnorm=       0.009061018443377427 nfe=    40
+KINSol nni=   11 fnorm=       0.003239975533025653 nfe=    41
+KINSol nni=   12 fnorm=       0.001070608383750436 nfe=    42
+KINSol nni=   13 fnorm=      0.0003266255776457823 nfe=    43
+KINSol nni=   14 fnorm=      9.293907227704538e-05 nfe=    44
+KINSol nni=   15 fnorm=      2.368493046332046e-05 nfe=    45
+KINSol nni=   16 fnorm=      5.206608362455387e-06 nfe=    46
+KINSol nni=   17 fnorm=      9.003044078321595e-07 nfe=    47
+KINSol nni=   18 fnorm=      1.384919297551297e-07 nfe=    48
+KINSol nni=   19 fnorm=      2.479357559983014e-08 nfe=    49
+KINSol nni=   20 fnorm=        5.6691554544015e-09 nfe=    50
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              20               351
+Lin. Its.:                400              7020
+Func. Evals.:              50               751
+PC Evals.:                 20               351
+PC Solves:                420              7371
+Lin. Conv. Fails:          20               351
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.800000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          364.2635908434052  nfe=     1 
+KINSol nni=    1 fnorm=          364.2635458176053 nfe=    30
+KINSol nni=    2 fnorm=          46.65956507410139 nfe=    31
+KINSol nni=    3 fnorm=          8.571705063560293 nfe=    32
+KINSol nni=    4 fnorm=          3.165277977893037 nfe=    33
+KINSol nni=    5 fnorm=          1.259524112346081 nfe=    34
+KINSol nni=    6 fnorm=         0.5008782383862133 nfe=    35
+KINSol nni=    7 fnorm=         0.1969836454352862 nfe=    36
+KINSol nni=    8 fnorm=        0.07467962175479928 nfe=    37
+KINSol nni=    9 fnorm=        0.02724787281929414 nfe=    38
+KINSol nni=   10 fnorm=       0.009584223132993307 nfe=    39
+KINSol nni=   11 fnorm=        0.00321294149005036 nfe=    40
+KINSol nni=   12 fnorm=       0.001003686279484239 nfe=    41
+KINSol nni=   13 fnorm=      0.0002883008964448262 nfe=    42
+KINSol nni=   14 fnorm=      7.582819401079787e-05 nfe=    43
+KINSol nni=   15 fnorm=      1.774337126096426e-05 nfe=    44
+KINSol nni=   16 fnorm=      3.624782225373226e-06 nfe=    45
+KINSol nni=   17 fnorm=      5.804127126966131e-07 nfe=    46
+KINSol nni=   18 fnorm=      8.515670947531396e-08 nfe=    47
+KINSol nni=   19 fnorm=      1.458513571183746e-08 nfe=    48
+KINSol nni=   20 fnorm=      3.617576929219033e-09 nfe=    49
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              20               371
+Lin. Its.:                400              7420
+Func. Evals.:              49               800
+PC Evals.:                 20               371
+PC Solves:                420              7791
+Lin. Conv. Fails:          20               371
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.850000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          339.8362562073656  nfe=     1 
+KINSol nni=    1 fnorm=          339.8361517750235 nfe=    31
+KINSol nni=    2 fnorm=          39.27182221295862 nfe=    32
+KINSol nni=    3 fnorm=          5.257936755748337 nfe=    33
+KINSol nni=    4 fnorm=          1.967721281712305 nfe=    34
+KINSol nni=    5 fnorm=         0.7885523626423723 nfe=    35
+KINSol nni=    6 fnorm=         0.3136242517161379 nfe=    36
+KINSol nni=    7 fnorm=         0.1224718964380416 nfe=    37
+KINSol nni=    8 fnorm=        0.04563718290079365 nfe=    38
+KINSol nni=    9 fnorm=        0.01621679564840167 nfe=    39
+KINSol nni=   10 fnorm=       0.005585941330825734 nfe=    40
+KINSol nni=   11 fnorm=       0.001806658113215009 nfe=    41
+KINSol nni=   12 fnorm=      0.0005359419192471221 nfe=    42
+KINSol nni=   13 fnorm=      0.0001445796935725269 nfe=    43
+KINSol nni=   14 fnorm=      3.553041484369327e-05 nfe=    44
+KINSol nni=   15 fnorm=      7.735893419735399e-06 nfe=    45
+KINSol nni=   16 fnorm=      1.426051838934101e-06 nfe=    46
+KINSol nni=   17 fnorm=      2.078699750855336e-07 nfe=    47
+KINSol nni=   18 fnorm=      3.316382956001664e-08 nfe=    48
+KINSol nni=   19 fnorm=      6.577901611120569e-09 nfe=    49
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              19               390
+Lin. Its.:                380              7800
+Func. Evals.:              49               849
+PC Evals.:                 19               390
+PC Solves:                399              8190
+Lin. Conv. Fails:          19               390
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.900000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          331.7700695493611  nfe=     1 
+KINSol nni=    1 fnorm=          331.7699995978527 nfe=    31
+KINSol nni=    2 fnorm=           43.2678158868806 nfe=    32
+KINSol nni=    3 fnorm=          7.805347570606259 nfe=    33
+KINSol nni=    4 fnorm=          2.778713697321181 nfe=    34
+KINSol nni=    5 fnorm=          1.056742461525176 nfe=    35
+KINSol nni=    6 fnorm=         0.3982892581674984 nfe=    36
+KINSol nni=    7 fnorm=           0.14752692085851 nfe=    37
+KINSol nni=    8 fnorm=        0.05221963198680341 nfe=    38
+KINSol nni=    9 fnorm=        0.01763328649553044 nfe=    39
+KINSol nni=   10 fnorm=       0.005679246572501017 nfe=    40
+KINSol nni=   11 fnorm=       0.001734125842197871 nfe=    41
+KINSol nni=   12 fnorm=      0.0004930135976775805 nfe=    42
+KINSol nni=   13 fnorm=      0.0001271344902790338 nfe=    43
+KINSol nni=   14 fnorm=      2.931565882997317e-05 nfe=    44
+KINSol nni=   15 fnorm=      5.861353048783659e-06 nfe=    45
+KINSol nni=   16 fnorm=       1.02227906111695e-06 nfe=    46
+KINSol nni=   17 fnorm=      1.469614727788573e-07 nfe=    47
+KINSol nni=   18 fnorm=      2.241256677377056e-08 nfe=    48
+KINSol nni=   19 fnorm=      4.080719673456155e-09 nfe=    49
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              19               409
+Lin. Its.:                380              8180
+Func. Evals.:              49               898
+PC Evals.:                 19               409
+PC Solves:                399              8589
+Lin. Conv. Fails:          19               409
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 0.950000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=          306.8957770794987  nfe=     1 
+KINSol nni=    1 fnorm=          306.8956410711588 nfe=    30
+KINSol nni=    2 fnorm=          35.85282487235524 nfe=    31
+KINSol nni=    3 fnorm=          4.681838882081194 nfe=    32
+KINSol nni=    4 fnorm=          1.683063873463226 nfe=    33
+KINSol nni=    5 fnorm=         0.6442134646504065 nfe=    34
+KINSol nni=    6 fnorm=         0.2416610102841114 nfe=    35
+KINSol nni=    7 fnorm=        0.08830832646581532 nfe=    36
+KINSol nni=    8 fnorm=         0.0304234535463693 nfe=    37
+KINSol nni=    9 fnorm=       0.009910567098712315 nfe=    38
+KINSol nni=   10 fnorm=       0.003112386316680206 nfe=    39
+KINSol nni=   11 fnorm=      0.0009129224817240645 nfe=    40
+KINSol nni=   12 fnorm=      0.0002440413837087608 nfe=    41
+KINSol nni=   13 fnorm=      5.852810158045659e-05 nfe=    42
+KINSol nni=   14 fnorm=      1.247493938366984e-05 nfe=    43
+KINSol nni=   15 fnorm=      2.312484013051422e-06 nfe=    44
+KINSol nni=   16 fnorm=      3.571502696458581e-07 nfe=    45
+KINSol nni=   17 fnorm=      4.820479776289894e-08 nfe=    46
+KINSol nni=   18 fnorm=      9.046436769074537e-09 nfe=    47
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              18               427
+Lin. Its.:                360              8540
+Func. Evals.:              47               945
+PC Evals.:                 18               427
+PC Solves:                378              8967
+Lin. Conv. Fails:          18               427
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 
+
+KINSOL starting step for time 1.000000
+scsteptol used:        1e-20 
+fnormtol  used:        1e-09 
+KINSolInit nni=    0  fnorm=           298.588419643469  nfe=     1 
+KINSol nni=    1 fnorm=          298.5883836005984 nfe=    29
+KINSol nni=    2 fnorm=          39.47531799973491 nfe=    30
+KINSol nni=    3 fnorm=          6.868040544175208 nfe=    31
+KINSol nni=    4 fnorm=          2.334066500137864 nfe=    32
+KINSol nni=    5 fnorm=         0.8408983547990361 nfe=    33
+KINSol nni=    6 fnorm=         0.2985121547139857 nfe=    34
+KINSol nni=    7 fnorm=         0.1036964511432019 nfe=    35
+KINSol nni=    8 fnorm=        0.03422551280442353 nfe=    36
+KINSol nni=    9 fnorm=        0.01070081214605735 nfe=    37
+KINSol nni=   10 fnorm=       0.003162365162052496 nfe=    38
+KINSol nni=   11 fnorm=      0.0008822180170506139 nfe=    39
+KINSol nni=   12 fnorm=      0.0002294161249289198 nfe=    40
+KINSol nni=   13 fnorm=      5.342894579115254e-05 nfe=    41
+KINSol nni=   14 fnorm=      1.088313180138485e-05 nfe=    42
+KINSol nni=   15 fnorm=      1.868935754806423e-06 nfe=    43
+KINSol nni=   16 fnorm=      2.831874930892449e-07 nfe=    44
+KINSol nni=   17 fnorm=      3.914180288329503e-08 nfe=    45
+KINSol nni=   18 fnorm=      6.059416158798376e-09 nfe=    46
+KINSol return value 1
+---KINSOL_SUCCESS
+
+-------------------------------------------------- 
+                    Iteration             Total
+Nonlin. Its.:              18               445
+Lin. Its.:                360              8900
+Func. Evals.:              46               991
+PC Evals.:                 18               445
+PC Solves:                378              9345
+Lin. Conv. Fails:          18               445
+Beta Cond. Fails:           0                 0
+Backtracks:                 0                 0
+-------------------------------------------------- 

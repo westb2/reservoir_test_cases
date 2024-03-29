@@ -1,0 +1,4 @@
+time,name,storage,intake_amount_since_last_row,release_amount_since_last_row,release_rate
+0.000000,reservoir_0,5000.000000,0.000000,0.000000,10.000000
+0.050000,reservoir_0,5001.999989,2.499989,0.500000,10.000000
+0.150000,reservoir_0,5005.794329,4.794340,1.000000,10.000000
