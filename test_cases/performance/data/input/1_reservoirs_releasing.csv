@@ -1,0 +1,2 @@
+key,Intake_X,Intake_Y,Release_X,Release_Y,Has_Secondary_Intake_Cell,    Secondary_Intake_X,Secondary_Intake_Y,Max_Storage,Storage,        Min_Release_Storage,Release_Rate
+reservoir_0,4585.0,1495.0,4595.0,1495.0,-1,-1,-1,10000,5000,0,10

@@ -1,0 +1,6 @@
+./test_cases/*/data/output/your_runs
+./test_cases/performance/performance/data
+./test_cases/performance/performance/test_output
+./test_cases/performance/performance/test_output_bigger_domain
+./test_cases/performance/performance/test_output_longer_run
+./test_cases/real_world/
