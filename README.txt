@@ -1,0 +1,1 @@
+This repo contains contains test cases for the implementation of reservoirs in ParFlow. It is currently underconstruction to add documentation and to make it possible to run more of the test cases without needing to download a prohibitvely large amount of files. Check back in a couple weeks if you want to use it.

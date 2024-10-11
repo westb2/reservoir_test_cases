@@ -21,15 +21,15 @@ def run_model(number_of_reservoirs, rain_condition, reservoir_condition):
 
     overland.FileVersion = 4
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-p', '--p', default=1)
-    parser.add_argument('-q', '--q', default=1)
-    parser.add_argument('-r', '--r', default=1)
-    args = parser.parse_args()
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('-p', '--p', default=1)
+    # parser.add_argument('-q', '--q', default=1)
+    # parser.add_argument('-r', '--r', default=1)
+    # args = parser.parse_args()
 
-    overland.Process.Topology.P = args.p
-    overland.Process.Topology.Q = args.q
-    overland.Process.Topology.R = args.r
+    overland.Process.Topology.P = 1 #args.p
+    overland.Process.Topology.Q = 1 #args.q
+    overland.Process.Topology.R = 1 #args.r
 
     #---------------------------------------------------------
     # Computational Grid

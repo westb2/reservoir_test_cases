@@ -9,6 +9,7 @@ def generate_random_location(nx, ny, dx, dy):
 
 
 def generate_reservoirs():
+    random.seed(0)
     dx = 10.
     dy = 10.
     nx = 500
