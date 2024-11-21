@@ -1,8 +1,8 @@
 {
 	"parflow":	{
 		"build":	{
-			"version":	"v3.12.0-125-gf79674e2",
-			"compiled":	"Feb 29 2024 12:30:34"
+			"version":	"v3.13.0-20-g7c8e7f0d",
+			"compiled":	"Sep 25 2024 12:10:26"
 		}
 	},
 	"domains":	{
@@ -140,6 +140,7 @@
 				"Process.Topology.R":	"1",
 				"ProcessGrid.NumSubgrids":	"0",
 				"Reservoirs.Names":	"",
+				"Reservoirs.Overland_Flow_Solver":	"OverlandKinematic",
 				"Solver":	"Richards",
 				"Solver.AbsTol":	"1e-10",
 				"Solver.AdvectOrder":	"2",
@@ -221,6 +222,7 @@
 				"Solver.PrintOverlandBCFlux":	"False",
 				"Solver.PrintOverlandSum":	"False",
 				"Solver.PrintPressure":	"True",
+				"Solver.PrintReservoirs":	"True",
 				"Solver.PrintSaturation":	"True",
 				"Solver.PrintSlopes":	"False",
 				"Solver.PrintSpecificStorage":	"False",
@@ -304,13 +306,13 @@
 			"place":	"cell",
 			"domain":	"subsurface",
 			"data":	[{
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_x.pfb",
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_x.pfb",
 					"component":	"x"
 				}, {
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_y.pfb",
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_y.pfb",
 					"component":	"y"
 				}, {
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_z.pfb",
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.perm_z.pfb",
 					"component":	"z"
 				}]
 		},
@@ -319,7 +321,7 @@
 			"place":	"cell",
 			"domain":	"subsurface",
 			"data":	[{
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.porosity.pfb"
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.porosity.pfb"
 				}]
 		},
 		"specific storage":	{
@@ -328,7 +330,7 @@
 			"domain":	"subsurface",
 			"units":	"1/m",
 			"data":	[{
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.specific_storage.pfb"
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.specific_storage.pfb"
 				}]
 		},
 		"mask":	{
@@ -336,7 +338,7 @@
 			"place":	"cell",
 			"domain":	"subsurface",
 			"data":	[{
-					"file":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.mask.pfb"
+					"file":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.mask.pfb"
 				}]
 		}
 	},
@@ -348,7 +350,7 @@
 			"time-varying":	true,
 			"units":	"m",
 			"data":	[{
-					"file-series":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.press.%05d.pfb",
+					"file-series":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.press.%05d.pfb",
 					"time-range":	[0, 10]
 				}]
 		},
@@ -358,7 +360,7 @@
 			"domain":	"subsurface",
 			"time-varying":	true,
 			"data":	[{
-					"file-series":	"/Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.satur.%05d.pfb",
+					"file-series":	"/Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_0_reservoirs_releasing_periodic_rainfall/model.out.satur.%05d.pfb",
 					"time-range":	[0, 10]
 				}]
 		}

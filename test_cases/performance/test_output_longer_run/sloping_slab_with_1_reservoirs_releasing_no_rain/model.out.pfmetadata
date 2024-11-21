@@ -1,8 +1,8 @@
 {
 	"parflow":	{
 		"build":	{
-			"version":	"v3.13.0-133-g4572c0e2",
-			"compiled":	"Jul 12 2024 15:38:14"
+			"version":	"v3.13.0-20-g7c8e7f0d",
+			"compiled":	"Sep 25 2024 12:10:26"
 		}
 	},
 	"domains":	{
@@ -141,7 +141,7 @@
 				"ProcessGrid.NumSubgrids":	"0",
 				"Reservoirs.Names":	"reservoir_0",
 				"Reservoirs.Overland_Flow_Solver":	"OverlandKinematic",
-				"Reservoirs.reservoir_0.Has_Secondary_Intake_Cell":	"-1",
+				"Reservoirs.reservoir_0.Has_Secondary_Intake_Cell":	"0",
 				"Reservoirs.reservoir_0.Intake_X":	"4325.0",
 				"Reservoirs.reservoir_0.Intake_Y":	"1975.0",
 				"Reservoirs.reservoir_0.Max_Storage":	"10000.0",

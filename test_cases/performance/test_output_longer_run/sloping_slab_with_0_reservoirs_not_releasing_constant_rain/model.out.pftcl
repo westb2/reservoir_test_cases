@@ -1,5 +1,5 @@
-# 9
-# 276
+# 10
+# 278
 pfset BCPressure.PatchNames "x_lower x_upper y_lower y_upper z_lower z_upper"
 pfset ComputationalGrid.DX "10.0"
 pfset ComputationalGrid.DY "10.0"
@@ -121,6 +121,8 @@ pfset Process.Topology.Q "1"
 pfset Process.Topology.R "1"
 pfset ProcessGrid.NumSubgrids "0"
 pfset Reservoirs.Names ""
+# Not used
+pfset Reservoirs.Overland_Flow_Solver "OverlandKinematic"
 pfset Solver "Richards"
 # Not used
 pfset Solver.AbsTol "1e-10"
@@ -205,6 +207,7 @@ pfset Solver.PrintMask "True"
 pfset Solver.PrintOverlandBCFlux "False"
 pfset Solver.PrintOverlandSum "False"
 pfset Solver.PrintPressure "True"
+pfset Solver.PrintReservoirs "True"
 pfset Solver.PrintSaturation "True"
 pfset Solver.PrintSlopes "False"
 pfset Solver.PrintSpecificStorage "False"

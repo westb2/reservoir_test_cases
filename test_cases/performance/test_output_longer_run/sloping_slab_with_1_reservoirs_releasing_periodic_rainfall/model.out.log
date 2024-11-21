@@ -1,7 +1,7 @@
 *****************************************************************************
 ParFlow Output Log
-	Version         : v3.12.0-125-gf79674e2
-	Compiled on     : Feb 29 2024 12:30:34
+	Version         : v3.13.0-20-g7c8e7f0d
+	Compiled on     : Sep 25 2024 12:10:25
 *****************************************************************************
 ==============================================
 BEGIN Log Info (SolverRichards)
@@ -424,7 +424,7 @@ END Log Info
 ==============================================
 BEGIN Log Info (Globals)
 
-Run Name: /Users/ben/Documents/GitHub/parflow-models/code/models/performance/test_output_longer_run/sloping_slab_with_1_reservoirs_releasing_periodic_rainfall/model
+Run Name: /Users/ben/Documents/GitHub/reservoir_test_cases/test_cases/performance/test_output_longer_run/sloping_slab_with_1_reservoirs_releasing_periodic_rainfall/model
 Logging Level = 1
 Num processes = 1
 Process grid = (1,1,1)
@@ -435,34 +435,37 @@ END Log Info
 BEGIN Log Info (Timing)
 
 Solver Setup:
-  wall clock time   = 0.033900 seconds
+  wall clock time   = 0.042500 seconds
   wall MFLOPS = 0.000000 (0)
 Solver:
-  wall clock time   = 1488.718100 seconds
-  wall MFLOPS = 639.204137 (9.51595e+11)
+  wall clock time   = 1227.299800 seconds
+  wall MFLOPS = 610.248625 (7.48958e+11)
 Richards Exclude 1st Time Step:
-  wall clock time   = 1474.490000 seconds
-  wall MFLOPS = 638.957720 (9.42137e+11)
+  wall clock time   = 1211.937600 seconds
+  wall MFLOPS = 610.179942 (7.395e+11)
 Solver Cleanup:
-  wall clock time   = 0.044900 seconds
+  wall clock time   = 0.123200 seconds
   wall MFLOPS = 0.000000 (0)
 Matvec:
-  wall clock time   = 169.676100 seconds
-  wall MFLOPS = 1285.673115 (2.18148e+11)
+  wall clock time   = 137.262600 seconds
+  wall MFLOPS = 1250.245879 (1.71612e+11)
 PFSB I/O:
   wall clock time   = 0.000000 seconds
   wall MFLOPS = 0.000000 (0)
 PFB I/O:
-  wall clock time   = 0.262300 seconds
+  wall clock time   = 0.294600 seconds
   wall MFLOPS = 0.000000 (0)
 CLM:
-  wall clock time   = 0.000400 seconds
+  wall clock time   = 0.000100 seconds
   wall MFLOPS = 0.000000 (0)
 PFSOL Read:
   wall clock time   = 0.000000 seconds
   wall MFLOPS = 0.000000 (0)
 Clustering:
-  wall clock time   = 0.655000 seconds
+  wall clock time   = 0.807700 seconds
+  wall MFLOPS = 0.000000 (0)
+Netcdf I/O:
+  wall clock time   = 0.000000 seconds
   wall MFLOPS = 0.000000 (0)
 Permeability Face:
   wall clock time   = 0.000000 seconds
@@ -471,36 +474,36 @@ Godunov Advection:
   wall clock time   = 0.000000 seconds
   wall MFLOPS = 0.000000 (0)
 Geometries:
-  wall clock time   = 0.587300 seconds
+  wall clock time   = 0.807700 seconds
   wall MFLOPS = 0.000000 (0)
 SubsrfSim:
-  wall clock time   = 0.011600 seconds
+  wall clock time   = 0.009800 seconds
   wall MFLOPS = 0.000000 (0)
 Porosity:
-  wall clock time   = 0.000200 seconds
+  wall clock time   = 0.000600 seconds
   wall MFLOPS = 0.000000 (0)
 PhaseRelPerm:
-  wall clock time   = 7.160700 seconds
-  wall MFLOPS = 0.002599 (18614)
+  wall clock time   = 5.995800 seconds
+  wall MFLOPS = 0.002493 (14949)
 PFMG:
-  wall clock time   = 175.897900 seconds
+  wall clock time   = 143.398000 seconds
   wall MFLOPS = 0.000000 (0)
 HYPRE_Copies:
-  wall clock time   = 281.695200 seconds
+  wall clock time   = 227.212000 seconds
   wall MFLOPS = 0.000000 (0)
 NL_F_Eval:
-  wall clock time   = 305.821200 seconds
-  wall MFLOPS = 0.000027 (8226)
+  wall clock time   = 262.252900 seconds
+  wall MFLOPS = 0.000026 (6777)
 KINSol:
-  wall clock time   = 1487.047900 seconds
-  wall MFLOPS = 639.922069 (9.51595e+11)
+  wall clock time   = 1225.029800 seconds
+  wall MFLOPS = 611.379425 (7.48958e+11)
 
 END Log Info
 ==============================================
 ==============================================
 BEGIN Log Info (ParFlow Total Time)
 
-Total Run Time: 1489.364800 seconds
+Total Run Time: 1227.919200 seconds
 
 
 

@@ -1,4 +1,0 @@
-Performance test case figures are wonky because they are calculating from timestamps on copied files
-
-That also made the figures weird because I set the ylims manually. Might have to change this for 
-when other people run it

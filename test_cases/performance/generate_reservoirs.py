@@ -1,6 +1,8 @@
 import random
 
-# domain configurations
+# This is the code we used to generate the reservoir files used as inputs 
+# for the performance tests. You don't need to run this code, but you can
+# if you want
 
 def generate_random_location(nx, ny, dx, dy):
     x = float(random.randint(0, nx-1)) * dx + dx/2.
@@ -9,6 +11,7 @@ def generate_random_location(nx, ny, dx, dy):
 
 
 def generate_reservoirs():
+    # Set the seed to 0 to ensure reproducibility. You can change it if you would like.
     random.seed(0)
     dx = 10.
     dy = 10.
@@ -36,12 +39,12 @@ def generate_reservoirs():
         with open(f"reservoir_files/{number_of_reservoirs}_reservoirs_releasing.csv", "w") as file:
             file.write(header)
             for reservoir_number, (x,y) in enumerate(reservoir_locations):
-                line = f"reservoir_{reservoir_number},{x},{y},{x+dx},{y},-1,-1,-1,10000,5000,0,10\n"
+                line = f"reservoir_{reservoir_number},{x},{y},{x+dx},{y},0,-1,-1,10000,5000,0,10\n"
                 file.write(line)
         with open(f"reservoir_files/{number_of_reservoirs}_reservoirs_not_releasing.csv", "w") as file:
             file.write(header)
             for reservoir_number, (x,y) in enumerate(reservoir_locations):
-                line = f"reservoir_{reservoir_number},{x},{y},{x+dx},{y},-1,-1,-1,10000,5000,0,0\n"
+                line = f"reservoir_{reservoir_number},{x},{y},{x+dx},{y},0,-1,-1,10000,5000,0,0\n"
                 file.write(line)
 
 

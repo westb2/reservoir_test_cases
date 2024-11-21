@@ -385,8 +385,8 @@ Reservoirs.Overland_Flow_Solver
 OverlandKinematic
 48
 Reservoirs.reservoir_0.Has_Secondary_Intake_Cell
-2
--1
+1
+0
 31
 Reservoirs.reservoir_0.Intake_X
 6
